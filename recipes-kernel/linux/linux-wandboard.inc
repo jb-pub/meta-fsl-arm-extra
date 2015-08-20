@@ -20,5 +20,6 @@ WANDBOARD_GITHUB_MIRROR ?= "git://github.com/wandboard-org/linux.git"
 # SRC_URI for wandboard kernel
 SRC_URI = "${WANDBOARD_GITHUB_MIRROR};branch=${SRCBRANCH} \
            file://defconfig \
+           file://0001-Required-changes-to-handle-IR-receiver-based-on-TSOP.patch \
 "
 
